@@ -37,7 +37,7 @@ h3 {
 .innerContainer {
   display: flex;
   align-items: center;
-  padding: 10px;
+
   /* border: 1px solid #000; */
   color: white;
 }
@@ -50,6 +50,8 @@ h3 {
 
 .profile-data {
   width: 100%;
+ 
+	padding: 15px;
 }
 
 .profileContainer {
@@ -101,4 +103,52 @@ h3 {
 }
 
 
+@media screen and (max-width: 471px) {
+	
+
+	body {
+		height: auto;
+	}
+
+	.container {
+		padding: 5px;
+		text-align: center;
+		margin: 20px;
+	}
+
+
+	.innerContainer {
+		flex-direction: column;
  
+	}
+
+	.btn {
+		border: none;
+		width: 100%;
+	
+		background: #0cebeb; /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+		padding: 12px 20px;
+	
+		border-radius: 5px;
+		color: white;
+		font-family: "Poppins", sans-serif;
+		font-weight: 700;
+		font-size: 19px;
+		transition: 0.3s;
+	}
+
+
+	
+.profile-data {
+  margin-top: 5px;
+}
+
+.profileContainer {
+	
+	margin-top: 15px;
+}
+
+}

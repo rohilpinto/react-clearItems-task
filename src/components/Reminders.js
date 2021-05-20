@@ -15,7 +15,7 @@ const Reminders = () => {
         const { id, name, jd, profile, reminder } = people;
         return (
           <div className="innerContainer">
-            <div className="reminder-count"></div>
+            {/* <div className="reminder-count"></div> */}
             <div className="profileContainer">
               <img src={profile} alt="profile" className="profile" />
             </div>
