@@ -14,7 +14,7 @@ const Reminders = () => {
       {originalData.map((people) => {
         const { id, name, jd, profile, reminder } = people;
         return (
-          <div className="innerContainer">
+          <div className="innerContainer" key={id}>
             {/* <div className="reminder-count"></div> */}
             <div className="profileContainer">
               <img src={profile} alt="profile" className="profile" />
